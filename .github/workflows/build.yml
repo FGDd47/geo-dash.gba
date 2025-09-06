@@ -1,11 +1,14 @@
 name: Build GBA ROM
+
 on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: addnab/docker-run-action@v3
         with:
           image: devkitpro/devkitarm:latest
@@ -16,25 +19,17 @@ jobs:
             make utils
             make game
             make levels
+
+      - name: List build outputs
+        run: |
+          ls -R
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: geodash-gba-rom
           path: |
-  **/*.gba
-
-
-
-
-
-
-
-
-
-
-
-
-
+            **/*.gba
 
 
 
