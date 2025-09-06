@@ -1,0 +1,15 @@
+*.elf
+*.gba
+*.sav
+.vscode/
+assets/
+levels/*.bin
+tools/lvl2bin
+tools/lvl2rom
+tools/mod2snd
+tools/mod2txt
+tools/lsdsk
+tools/ppm2font
+tools/bezlut
+tools/sinlut
+tools/tmx2tiles

@@ -1,0 +1,28 @@
+2d collision detection:
+- https://noonat.github.io/intersect/
+- https://dyn4j.org/2010/01/sat/
+- https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf
+
+geometry dash physics:
+- https://gdforum.freeforums.net/thread/48749/p1kachu-presents-physics-geometry-dash
+
+sprite resources:
+- https://www.spriters-resource.com/mobile/geometrydash/
+- https://opengameart.org
+- https://geometry-dash.fandom.com
+
+makefile automatic variables:
+- https://stackoverflow.com/a/37701195
+
+sd cards:
+- https://electronics.stackexchange.com/a/602106
+
+fat:
+- https://www.win.tue.nl/~aeb/linux/fs/fat/fat-1.html
+- https://en.wikipedia.org/wiki/Master_boot_record
+- https://en.wikipedia.org/wiki/Partition_type
+
+audio:
+- https://deku.gbadev.org/program/sound3.html
+- https://www.cs.nmsu.edu/~rth/cs/computermusic/Simple%20sound%20generation.html
+- https://modarchive.org
