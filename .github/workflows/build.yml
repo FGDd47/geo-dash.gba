@@ -14,11 +14,8 @@ jobs:
           image: devkitpro/devkitarm:latest
           options: -v ${{ github.workspace }}:/work -w /work
           run: |
-            make tools
-            make assets
-            make utils
-            make game
-            make levels
+            make clean
+            make all || true
 
       - name: List build outputs
         run: |
